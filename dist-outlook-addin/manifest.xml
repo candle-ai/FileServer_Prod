@@ -5,13 +5,13 @@
             xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" 
             xsi:type="MailApp">
   <Id>32345678-1234-1234-1234-123456789015</Id>
-  <Version>1.0.5.0</Version>
+  <Version>1.0.11.0</Version>
   <ProviderName>Candle AI</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Candle AI Assistant"/>
   <Description DefaultValue="AI-powered email assistant for enhanced productivity"/>
-  <IconUrl DefaultValue="https://app.trycandle.ai/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://app.trycandle.ai/assets/icon-128.png"/>
+  <IconUrl DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://www.trycandle.ai/contact"/>
   <AppDomains>
     <AppDomain>https://localhost:5174</AppDomain>
@@ -19,6 +19,8 @@
     <AppDomain>https://cognito-idp.us-east-1.amazonaws.com</AppDomain>
     <AppDomain>https://bjqq0khodf.execute-api.us-east-1.amazonaws.com</AppDomain>
     <AppDomain>https://candle-663321693918-us-east-1.auth.us-east-1.amazoncognito.com</AppDomain>
+    <AppDomain>https://candle-565393026129-us-east-1.auth.us-east-1.amazoncognito.com</AppDomain>
+    <AppDomain>https://candle-448049808205-us-east-1.auth.us-east-1.amazoncognito.com</AppDomain>
     <AppDomain>https://candle-ai.github.io</AppDomain>
   </AppDomains>
   <Hosts>
@@ -32,7 +34,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://app.trycandle.ai/taskpane.html"/>
+        <SourceLocation DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/src/apps/outlook-addin/taskpane.html"/>
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -110,14 +112,14 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon.16x16" DefaultValue="https://app.trycandle.ai/assets/icon-16.png"/>
-          <bt:Image id="Icon.32x32" DefaultValue="https://app.trycandle.ai/assets/icon-32.png"/>
-          <bt:Image id="Icon.80x80" DefaultValue="https://app.trycandle.ai/assets/icon-80.png"/>
+          <bt:Image id="Icon.16x16" DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/assets/icon-16.png"/>
+          <bt:Image id="Icon.32x32" DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/assets/icon-32.png"/>
+          <bt:Image id="Icon.80x80" DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="Commands.Url" DefaultValue="https://app.trycandle.ai/commands.html"/>
-          <bt:Url id="Taskpane.Url" DefaultValue="https://app.trycandle.ai/taskpane.html"/>
-          <bt:Url id="InlineContent.Url" DefaultValue="https://app.trycandle.ai/src/apps/outlook-addin/inline.html"/>
+          <bt:Url id="Commands.Url" DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/src/apps/outlook-addin/commands.html"/>
+          <bt:Url id="Taskpane.Url" DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/src/apps/outlook-addin/taskpane.html"/>
+          <bt:Url id="InlineContent.Url" DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/src/apps/outlook-addin/inline.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="CandleAI"/>
