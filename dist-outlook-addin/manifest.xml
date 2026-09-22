@@ -5,10 +5,10 @@
             xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" 
             xsi:type="MailApp">
   <Id>32345678-1234-1234-1234-123456789015</Id>
-  <Version>1.2.11.0</Version>
+  <Version>1.2.17.0</Version>
   <ProviderName>Candle AI</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Candle AI Assistant"/>
+  <DisplayName DefaultValue="Candle Legal Workspace"/>
   <Description DefaultValue="AI-powered email assistant for enhanced productivity"/>
   <IconUrl DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://candle-ai.github.io/FileServer_Prod/dist-outlook-addin/assets/icon-128.png"/>
